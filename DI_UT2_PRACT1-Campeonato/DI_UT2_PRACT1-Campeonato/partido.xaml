@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="DI_UT2_PRACT1_Campeonato.partido"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DI_UT2_PRACT1_Campeonato"
+             mc:Ignorable="d" Height="191.463" Width="256.098">
+    <Grid>
+        <Label x:Name="LblFechaPartido" Content="Fecha Partido" HorizontalAlignment="Left" Margin="29,25,0,0" VerticalAlignment="Top" Width="211" Foreground="White" Background="#FF5476E8" FontSize="14"/>
+        <Label x:Name="LblEquipo1" Content="Equipo 1" HorizontalAlignment="Left" Margin="29,70,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.521,0.233" Width="138" FontSize="14" Background="#FFCBCBCB"/>
+        <Label x:Name="LblEquipo2" Content="Equipo 2" HorizontalAlignment="Left" Margin="29,114,0,0" VerticalAlignment="Top" Width="138" Background="#FFCBCBCB" FontSize="14"/>
+        <TextBox x:Name="TxtBoxEquipo1" HorizontalAlignment="Left" Height="29" Margin="172,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68" UndoLimit="3" MaxLines="3" MaxLength="3"/>
+        <TextBox x:Name="TxtBoxEquipo2" HorizontalAlignment="Left" Height="29" Margin="172,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68" UndoLimit="3" MaxLines="3" MaxLength="3"/>
+        <Button x:Name="BtnResultado" Content="Confirmar Resultado" HorizontalAlignment="Left" Margin="75,160,0,0" VerticalAlignment="Top" Width="127" Click="BtnResultado_Click"/>
+
+    </Grid>
+</UserControl>
